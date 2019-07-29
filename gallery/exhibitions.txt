@@ -1,0 +1,4 @@
+art prints,Prints,shown
+commissions,Commissions,shown
+paintings,Paintings,shown
+unframed,Unframed Prints,shown

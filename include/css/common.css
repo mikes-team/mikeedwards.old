@@ -1,0 +1,208 @@
+/* Developed by Luke Tennant copyright © Luke Tennant Ice Palms Ltd 2005*/
+/* File common.css - lists included css sheets*/
+/* Last Updated -  12/jan/2007*/
+
+@import url(forms.css);
+@import url(tables.css);
+@import url(site_specific.css);
+@import url(hrz_navigation.css);
+
+body{
+  /*width: 700px;*/
+	background-image:url(http://mikeedwards.co.uk/include/images/text_background.jpg);
+	background-attachment:fixed;
+  background-color : #ffffff; 
+	color: #53575d;
+	font-family: Arial;
+	font-size : small;
+	margin : 0 auto 0 auto;
+	padding : 0;
+	text-align: center;
+	
+}
+ 
+/* -- elements -- */
+#columnContainer, #banner, #foot{
+  width: 805px;
+  background-color : #ffffff; 
+  clear: both;
+}
+
+
+#banner{
+  height: 100px;
+  margin: 0 auto 0 auto;  /*must includ in both wraper and target for x-browser comaptibility*/
+  background-color: #B1BAC4;
+background-image: url(../../include/banner.jpg);
+  border: 1px solid #B1BAC4;
+}
+
+#banner_text{
+  font-family: Arial;
+  font-size : large;
+  color: #ffffff;
+  font-weight: bold;
+  /*float: left;*/
+  text-align: left;
+  padding: 65px 10px 0px 13px;
+}
+
+/*-- anchors -- ====================================================*/
+
+
+
+/*-- page -- ====================================================*/
+
+.page{
+	 
+}
+
+.pageTitle{
+  
+}
+
+.pageSubTitle{
+	
+}
+
+#foot{
+  clear: both;
+  height: 40px;
+
+	border: 1px solid #e3e3e3;
+}
+
+/*-- admin page Columns -- =======================================*/
+
+
+
+/*-- page Columns -- =============================================*/
+#columnContainer{
+  margin: 0 auto 0 auto;
+}
+
+#pageLeft, #adminLeft{
+  float: left;
+  width: 180px;
+  text-align: left;
+  padding: 0px 14px 0px 14px;
+  border: 1px solid #bfbfff;
+}
+
+#pageRight, #adminRight{
+  float: left;
+  width: 180px;
+  text-align: left;
+  padding: 0px 14px 0px 14px;
+  border: 1px solid #bfbfff;
+}
+
+#pageCenter, #adminCenter, #pageOneColumn{
+  float: left;
+  width: 345px;
+  text-align: left;  
+
+  border: 0px solid green;
+}
+
+#pageCenter{
+  padding: 0px 20px 0px 20px;
+}
+
+#pageOneColumn{
+  float: none;
+  clear : both;
+  width: 700px;
+  margin: 0px auto 0px auto; 
+}
+
+.crumbtrail{
+  text-align: left;
+  float: none;
+  clear: both;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #53575d ;
+  background-color: #C4CBD3 ;
+  height: 18px;
+
+}
+
+.crumbtrailTitle{
+  
+}
+
+a.crumbtrailHref{
+  text-decoration: none;
+}
+
+div.crumbtrailLeft{
+  float: left;
+  text-align: left;
+  width: 200px;
+  margin-left: 13px;
+  border: 0px solid red;
+}
+
+div.crumbtrailCenter{
+  float: left;
+  width: 344px;
+  text-align: center;
+  border: 0px solid yellow;  
+}
+
+div.crumbtrailRight{
+  float: right; 
+  text-align: right;
+  width: 200px;
+  margin-right: 13px;
+  border: 0px solid blue;  
+
+}
+
+
+
+.subtitle{
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+
+.pagelink:link, .pagelink:hover, .pagelink:visited{
+  text-decoration: none;
+  color: #33373d;
+}
+
+.pagelink:hover{
+  text-decoration: underline;
+}
+
+
+#foot{
+  font-size: xx-small;
+  padding: 8px 4px 4px 0px;
+}
+
+.footer_title{
+
+}
+.news-header{
+  color: #FF1D00;
+}
+
+.twitter-feed {
+
+}
+
+.cloudzoom-anchor {
+    cursor:crosshair;
+}
+/*-- specific pages -- =============================================*/
+
+
+
+/*-- other -- =====================================================*/
+
+

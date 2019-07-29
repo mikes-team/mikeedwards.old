@@ -1,0 +1,45 @@
+/* Developed by Luke Tennant copyright © Luke Tennant Ice Palms Ltd 2005*/
+/* File forms.css - styles for forms*/
+/* Last Updated -  12/jan/2007*/
+
+.inputClass{
+		width:150px;
+		margin-bottom:4px;
+}
+
+.labelClass, .inputErrorClass{
+	float:left;
+	width:150px;
+	color:#000000;
+	margin-bottom:4px;
+}
+
+.inputErrorClass{
+	color:#ff2222;
+}
+
+/* -- Buttons -- */
+
+.addButton{
+	color: #0000FF;
+	font-weight: bold;
+}
+
+.editButton{
+	color: #008800;
+	font-weight: bold;
+}
+
+.deleteButton{
+	color: #FF2222;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.clearButton{
+	color: #FF7700;
+	font-weight: bold;
+}
+
+
+

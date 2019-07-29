@@ -1,0 +1,202 @@
+/* Developed by Luke Tennant copyright © Luke Tennant Ice Palms Ltd 2007*/
+/* File site_specific.css - */
+/* Last Updated -  12/sept/2007*/
+
+/* gallery css */
+
+
+a:link, a:visited, a:hover{
+  
+}
+
+a:link{
+  color: #53575d;
+}
+
+a:hover{
+  color: #53575d;
+}
+
+a:visited{
+  color: #53575d;
+}
+
+
+.gallery1{
+  padding: 20px 5px 5px 5px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: center; 
+  background-color: #ffffff;
+  border: 2px solid #e3e3e3;
+
+}
+
+img.gallery1Image{
+  width: 280px;
+  height: 187px;
+  border: none;
+  text-decoration: none;
+}
+
+div.gallery1title{
+  
+}
+
+a.gallery1Anchor{
+  color: #444444;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.galleryCenter{
+  padding-left: 70px;
+  padding-top: 40px;
+}
+/*----------------------------------------------------------------------------*/
+/* exhibition css */
+
+.exhibitionList1{
+  padding-left: 135px;
+  padding-top: 60px;
+  float: none;
+  clear: both;
+  
+}
+
+.exhibition1{
+  width: 219px;
+  height: 200px;
+  padding: 5px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: center ; 
+  background-color: #ffffff;
+  border: 2px solid #e3e3e3;
+}
+
+img.exhibition1Image{
+  width: 219px;
+  border: none;
+  text-decoration: none;
+
+}
+
+
+a.exhibition1Anchor{
+  color: #444444;  
+  text-decoration: none;
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+.exhibitionList2{
+  padding-left: 60px;
+  padding-top: 60px;
+  float: none;
+  clear: both;
+  
+}
+
+.exhibitionList3{
+  padding-left: 26px;
+  padding-top: 60px;
+  float: none;
+  clear: both;
+  
+}
+
+.exhibitionList4{
+  padding-left: 100px;
+  padding-top: 60px;
+  float: none;
+  clear: both;
+  
+}
+
+.exhibitionList5{
+  padding-left: 22px;
+  padding-top: 60px;
+  float: none;
+  clear: both;
+  
+}
+
+.exhibition2{
+  width: 290px;
+  height: 386px;
+  padding: 5px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: center ; 
+  background-color: #ffffff;
+  border: 2px solid #e3e3e3;
+}
+
+img.exhibition2Image{
+  width: 280px;
+  border: none;
+  text-decoration: none;
+  
+}
+
+img.exhibition3Image{
+  height: 300px;
+  border: none;
+  text-decoration: none;
+  
+}
+
+img.exhibition4Image{
+  height: 300px;
+  border: none;
+  text-decoration: none;
+  
+}
+
+img.exhibition5Image{
+  height: 280px;
+  border: none;
+  text-decoration: none;
+  
+}
+  
+a.exhibition2Anchor{
+  color: #444444;  
+  text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.exhibit1{
+  /*width: 70px;*/
+  padding: 5px;
+  padding-left: 10px;
+  text-align: center ;
+  margin: 0 auto 0 auto; 
+
+}
+
+img#exhibit1Image{
+  padding: 0px 0px 0px 0px;
+  /*background-color: #dddddd;*/
+  border: 4px solid #e3e3e3;
+  margin: 0 auto 0 auto;
+
+}
+
+#exhibit1text{
+  /*text-align: left;*/
+  margin: 0 auto 0 auto;
+  width: 400px;
+}
+
+#exhibit1price{
+  margin: 0 auto 0 auto;
+}
+
+#exhibit1buy{
+
+}
+

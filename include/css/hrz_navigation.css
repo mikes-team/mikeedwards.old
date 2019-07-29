@@ -1,0 +1,81 @@
+/* Developed by Luke Tennant copyright © Luke Tennant Ice Palms Ltd 2005*/
+/* File hrz_navigation.css - lists included css sheets*/
+/* Last Updated -  12/jan/2007*/
+
+/* -- Horrizontal Navigation -- */
+
+#navigationDiv, .container, .containerSelected{
+	background-color:#c8cfd6;
+}
+
+#navigationDiv{
+  clear: both;
+  width: 797px;
+  margin: 0 auto 0 auto;
+  font-weight: bolder;
+	padding-left: 10px;
+	color:#b1aac4; /* same as background to hide the fullstop*/
+  text-align: left;
+
+}
+
+/* -- List -- */
+.list{  }
+
+/* -- container --*/
+.container, .containerSelected{
+	float:left;
+	margin-right:4px;
+}
+
+/* -- Links -- */
+/* -- Head -- */
+.linkerHead, .linker{
+	color:#53575d;
+	text-decoration:none;
+	padding-left:4px;
+	display:block;
+}
+
+ a.linkerHead:hover,  a.linkerHeadSelected:link, a.linkerHeadSelected:visited, a.linkerHeadSelected:hover{
+	background-color:#c8cfd6;
+	color:#53575d;
+  text-decoration: none;  
+}
+
+a.linkerHead:visited, linkerHead:link{
+  color: #53575d;
+}
+
+a.linkerHeadSelected:link, a.linkerHeadSelected:visited{
+	padding-left:4px;
+	width:100%;
+}
+
+a.linkerHead:hover, a.linkerHeadSelected:hover{
+	text-decoration:none;
+}
+
+/* -- Linker -- */
+.linker{
+	text-decoration:none;
+	display:none;
+}
+
+a.linker:visited{
+	background-color:#99ACC2;
+	color:#ffffff;
+}
+
+a.linker:hover{
+	text-decoration:none;
+	background-color:#ffffff;
+	color:#53575d;
+}
+
+a.linker:link{
+	text-decoration:none;
+}
+
+
+		
